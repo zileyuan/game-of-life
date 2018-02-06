@@ -45,7 +45,6 @@ public class WhenTheUserSpawnsTheNextGeneration {
         player.starts_simulation();
         player.continues_simulation();
         player.should_see_grid(expectedGrid);
-
     }
 
     @Test

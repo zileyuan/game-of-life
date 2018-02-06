@@ -30,7 +30,6 @@ public class WhenTheUserGoesToTheHomePage {
 
     @Test
     public void homePageShouldDisplayWelcomeMessage() {
-
         player.opens_home_page();
         player.should_see_title_of("The Game Of Life");
     }
